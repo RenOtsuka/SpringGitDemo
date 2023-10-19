@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WelcomeController {
 
+	//first change by sts
+	
 	@RequestMapping(value="/welcome",method = RequestMethod.GET)
 	public String welcome() {
 		return "Hey Welcome";
