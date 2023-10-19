@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController {
 
 	//first change by sts
+	//second change by desktop...
 	
 	@RequestMapping(value="/welcome",method = RequestMethod.GET)
 	public String welcome() {
